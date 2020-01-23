@@ -1,0 +1,118 @@
+/*Style general*/
+body,
+content,
+nav {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #f8f8f8 !important;
+  font-size: 1rem !important;
+  color: #9DA5B7; }
+
+/*Color default*/
+/*Mixins*/
+/*Class abstract*/
+.color-blue {
+  color: #4a8fe1ff !important; }
+
+.bg-color-blue {
+  background-color: #4a8fe1ff !important; }
+
+.line-height-1 {
+  line-height: 1rem !important; }
+
+.line-height-2 {
+  line-height: 2rem !important; }
+
+.font-weight-600 {
+  font-weight: 600 !important; }
+
+/*Person Class*/
+.bg-img-1 {
+  background-image: url(/assets/images/first-background.png);
+  background-position: center top;
+  background-size: cover; }
+  @media (max-width: 420px) {
+    .bg-img-1 {
+      background-position: center top;
+      background-size: 330%; } }
+
+.section-1 {
+  height: 650px; }
+  @media (max-width: 420px) {
+    .section-1 {
+      height: 445px; } }
+
+.nav-link li {
+  color: #fff !important; }
+
+.first-title {
+  font-size: 7.25rem;
+  font-weight: bolder; }
+  @media (max-width: 420px) {
+    .first-title {
+      font-size: 5.5rem; } }
+
+.box-topics {
+  line-height: 2rem; }
+
+.card-text {
+  color: #9DA5B7 !important; }
+
+.card h5, #section-3 p {
+  color: #4f6073 !important; }
+
+footer .container {
+  border-top: 1px solid #9DA5B7; }
+
+footer {
+  color: #9DA5B7; }
+  @media (max-width: 420px) {
+    footer {
+      text-align: center !important; } }
+
+.card {
+  border: 0 !important; }
+
+.button-prev, .button-next {
+  color: #4a8fe1ff;
+  font-size: 2rem; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; }
+
+.carousel-indicators li {
+  border-radius: 50%;
+  background-color: #4f6073 !important;
+  width: 20px !important;
+  height: 20px !important; }
+
+.carousel-indicators li.active {
+  background-color: #4a8fe1ff !important; }
+
+.carousel-indicators {
+  position: inherit !important;
+  margin-top: 1rem; }
+
+/*Person Menu*/
+@media (max-width: 420px) {
+  #navbarNav {
+    height: 100vh;
+    width: 100%;
+    background-color: #4a8fe1ff;
+    position: absolute !important;
+    top: 0;
+    z-index: 5;
+    left: 0;
+    padding-top: 5%;
+    text-align: center; } }
+
+.btn-close {
+  font-size: 2rem !important; }
+
+@media (max-width: 420px) {
+  ul.navbar-nav li {
+    font-size: 1.5rem;
+    line-height: 3rem; } }
+
+/*Menu scroll*/
+.navbar.bg-color-blue {
+  background-color: #4a8fe1ff !important; }
