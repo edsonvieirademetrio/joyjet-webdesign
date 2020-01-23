@@ -27,7 +27,7 @@ nav {
 
 /*Person Class*/
 .bg-img-1 {
-  background-image: url(assets/images/first-background.png);
+  background-image: url(../images/first-background.png);
   background-position: center top;
   background-size: cover; }
   @media (max-width: 420px) {
